@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //設定全螢幕顯示
@@ -23,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         //設定螢幕為橫式
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
         setContentView(R.layout.activity_main);
     }
+
     public void StartGame(View v){
         Intent it = new Intent();
         it.setClass(this, GameActivity.class);

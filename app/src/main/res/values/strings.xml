@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">紅綠燈(林汶慶)</string>
-
+    <string name="red_name">請輸入紅燈秒數</string>
+    <string name="yellow_name">請輸入黃燈秒數</string>
+    <string name="green_name">請輸入綠燈秒數</string>
 </resources>
